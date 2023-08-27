@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin: auto;
+            width: 50%;
+            margin: auto auto 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .hobbies-table tr:nth-child(1) td {
+            background-color: green;
+        }
+
+        .movies-table tr:nth-child(2) td {
+            background-color: red;
+        }
+
+        .song-table tr:nth-child(3) td {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="hobbies-table">
+        <thead>
+            <tr>
+                <th colspan="3">Hobbies</th>
+            </tr>
+            <tr>
+                <th>No.</th>
+                <th>Activity</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Reading</td>
+            <td>2 hours</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Writing</td>
+            <td>1 hour</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Playing</td>
+            <td>3 hours</td>
+        </tr>
+
+    </table>
+
+    <table class="movies-table">
+        <thead>
+            <tr>
+                <th colspan="3">Favorites Movies</th>
+            </tr>
+            <tr>
+                <th>No.</th>
+                <th>Title</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Avengers</td>
+            <td>Action</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>StrangerThings</td>
+            <td>Horror</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>
+                Umbrella Academy</td>
+            <td>Sci-Fi</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Harry Potter</td>
+            <td>Fantasy</td>
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Lord of the Rings</td>
+            <td>Fantasy</td>
+        </tr>
+    </table>
+
+    <table class="song-table">
+        <thead>
+            <th colspan="3">Favorites Song</th>
+            <tr>
+                <th>No.</th>
+                <th>Title</th>
+                <th>Singer</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>You Belong With Me</td>
+            <td>Taylor Swift</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Love Story</td>
+            <td>Taylor Swift</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Blank Space</td>
+            <td>Taylor Swift</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Bad Blood</td>
+            <td>Taylor Swift</td>
+        </tr>
+    </table>
+</body>
+
+</html>

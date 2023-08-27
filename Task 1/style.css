@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+h2 {
+    margin: auto;
+}
+
+.desc2 {
+    text-align: justify;
+}
+.span1 {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.span2 {
+    font-family: 'Vina Sans', cursive;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+aside {
+    float: right;
+    margin: 5px;
+}
+
+img {
+    border-radius: 50%;
+    height:244px;
+}
