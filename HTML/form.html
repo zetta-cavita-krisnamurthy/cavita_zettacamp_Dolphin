@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="border: 2px solid black; padding: 10px; margin: 20px;">
+        <header style="text-align: center;">
+            <h1 style="margin: 1px;"> Form Biodata </h1>
+            <p style="margin: 1px;">Fill the form with a correct data.</p>
+        </header>
+        <hr>
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname"><br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname"><br><br>
+
+            <label for="biography">Biography</label>
+            <textarea name="biography" id="biography" cols="30" rows="10"></textarea><br><br>
+
+            <label for="Gender">Gender</label>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label> <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email"><br><br>
+
+            <label for="tel">Telephone</label>
+            <input type="tel" name="tel"><br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" min="1" max="100"><br><br>
+
+            <label for="url">Website</label>
+            <input type="url" name="url"><br><br>
+
+            <input type="submit" value="Submit" </form>
+    </div>
+
+
+    <!-- </div> -->
+
+
+</body>
+
+</html>
